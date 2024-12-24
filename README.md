@@ -2,9 +2,26 @@
 
 **Template repository for getting started quickly with Foundry projects**
 
+
+
 ![Github Actions](https://github.com/foundry-rs/forge-template/workflows/CI/badge.svg)
 
 ## Getting Started
+
+    Ganache : To run Ethereum blockchain locally.
+    Truffle : To run code locally.
+    above ones depreciated in favour of hardHat
+
+    Hardhat : Ethereum development environment { Tests can be writen in TypeScript }
+    Foundry{ FrameWork } : Used for Ethereum Local Development 
+        - Forge  : Ethereum testing framework
+        - Cast   : CLI tool for performing Ethereum RPC calls { like Postman, Uniswap.org }
+        - Anvil  : Local Ethereum node/network, { Similar to ganache.}
+        - Chisel : Solidity REPL { It is fast, utilitarian, verbose }
+
+    Comparision :
+        - Solana   : Anchor, spl-token, Cli Solana-test-validator
+        - Ethereum : Forge,  Cast,      Anvil,                    Chisel.
 
 Click "Use this template" on [GitHub](https://github.com/foundry-rs/forge-template) to create a new repository with this repo as the initial state.
 
